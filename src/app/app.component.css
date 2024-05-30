@@ -73,7 +73,7 @@ nav .navbar .menu {
 }
 
 .content {
-  position: relative;
+  position: absolute;
   width: 83%;
   margin: 8%;
 }
