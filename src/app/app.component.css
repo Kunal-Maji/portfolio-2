@@ -1,0 +1,87 @@
+.image-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  background-color: #1b1a1a;
+}
+
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 125px;
+  background: transparent;
+  z-index: 1000;
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  background: transparent;
+  margin: auto;
+}
+
+nav .navbar .logo a {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #00bbff, #00ff80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  filter: drop-shadow(10px 8px 6px hsla(0, 0%, 0%, 0.711));
+}
+
+nav .navbar .menu {
+  display: flex;
+}
+
+.navbar .menu li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar .menu li a:hover {
+  background-color: #515151;
+  border-radius: 8px;
+  color: #0071f5;
+  border-color: #000;
+}
+
+.content {
+  position: relative;
+  width: 83%;
+  margin: 8%;
+}
+
+section {
+  height: 750px;
+  margin-bottom: 8%;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
